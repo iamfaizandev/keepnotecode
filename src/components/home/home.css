@@ -1,0 +1,18 @@
+.home {
+  background-image: url("../../assets/home-bg.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+  .home {
+    background-image: url("../../assets/phone-bg.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+}

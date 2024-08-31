@@ -1,0 +1,130 @@
+.signIn-section {
+  background-color: rgba(224, 233, 235, 0.95);
+  height: 100vh;
+  padding-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand_text {
+  text-shadow: 2px 2px 5px lightblue;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.signIn_container {
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+  background-color: white;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signIn_container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.signIn_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.leftSide {
+  margin-bottom: 2rem;
+}
+
+.signIn_formSide {
+  width: 100%;
+}
+
+.form-footer {
+  margin-top: 2%;
+}
+.footer-link div {
+  text-align: left;
+  margin-top: 1%;
+}
+
+.form-footer img {
+  margin-left: 3%;
+  width: 10%;
+}
+.form-footer .loginBtns {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 2%;
+}
+.btn-text {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.btn-text:hover {
+  color: #0056b3;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #007bff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .signIn_container {
+    width: 60%;
+
+    max-width: none;
+  }
+
+  .signIn_content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .signIn_formSide {
+    width: 60%;
+    padding-left: 2rem;
+  }
+
+  .form-footer {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand_text {
+    font-size: 1.5rem;
+  }
+
+  .btn-text {
+    font-size: 0.875rem;
+  }
+
+  .btn-primary {
+    font-size: 0.875rem;
+  }
+}

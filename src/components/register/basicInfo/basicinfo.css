@@ -1,0 +1,30 @@
+.basicInfo {
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.basicInfo-container {
+  background-color: white;
+  height: 60vh;
+  width: 60vw;
+  display: block;
+  margin: 5% 20%;
+  border-radius: 24px;
+}
+.basicInfo-content {
+  padding: 8% 5%;
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+}
+.basicInfo .title {
+  line-height: 3rem;
+}
+.basicInfo .leftSide,
+.basicInfoForm {
+  margin-top: 10%;
+}
+.basicInfo .subTitle {
+  font-weight: 400;
+}

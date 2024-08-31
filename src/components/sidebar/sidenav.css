@@ -1,0 +1,5 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+}
